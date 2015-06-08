@@ -1,1 +1,10 @@
 H:\DEMOS\SISFER\SISFER\bin\Debug\SISFER.exe.config
+H:\DEMOS\SISFER\SISFER\bin\Debug\SISFER.exe
+H:\DEMOS\SISFER\SISFER\bin\Debug\SISFER.pdb
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.csprojResolveAssemblyReference.cache
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.FrmPrincipal.resources
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.Properties.Resources.resources
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.csproj.GenerateResource.Cache
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.exe.licenses
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.exe
+H:\DEMOS\SISFER\SISFER\obj\Debug\SISFER.pdb
