@@ -32,7 +32,7 @@ namespace SISFER
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmCompras frm = new frmCompras();
+            frmCompras_prueba frm = new frmCompras_prueba();
 
             frm.Show();
         }
