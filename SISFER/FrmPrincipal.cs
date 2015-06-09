@@ -22,6 +22,7 @@ namespace SISFER
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
             BarItem bi = null;
+            
             bi.Name = "cbxcb";
 
             rcMenu.Items.Add(bi);
