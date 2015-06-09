@@ -29,5 +29,12 @@ namespace SISFER
  
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmCompras frm = new frmCompras();
+
+            frm.Show();
+        }
     }
 }
