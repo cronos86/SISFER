@@ -22,12 +22,12 @@ namespace SISFER
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
             BarItem bi = null;
-            
+           /* 
             bi.Name = "cbxcb";
 
             rcMenu.Items.Add(bi);
             
- 
+ */
 
         }
 
@@ -36,6 +36,12 @@ namespace SISFER
             frmCompras_prueba frm = new frmCompras_prueba();
 
             frm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmPrueba_CardView frm2 = new frmPrueba_CardView();
+            frm2.Show();
         }
     }
 }
