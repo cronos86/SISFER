@@ -19,13 +19,13 @@ namespace SISFER
         {
             InitializeComponent();
         }
-        SqlConnection cn = new SqlConnection("server=PROPIETARIO\\SQLRAMSES;integrated security=SSPI;database=BD_FERRETERIA");
+        SqlConnection cn = new SqlConnection(clsConexion.cadConexion());
 
         private void frmPrueba_CardView_Load(object sender, EventArgs e)
         {
 
             SqlDataAdapter da1 = new SqlDataAdapter("select * from categoria", cn);
-            SqlDataAdapter da2 = new SqlDataAdapter("select * from producto", cn);
+            SqlDataAdapter da2 = new SqlDataAdapter("select cod_pro,cod_cat,pro_nom,pro_des,pro_mar,pro_mod from producto", cn);
 
             DataSet ds = new DataSet();
             da1.Fill(ds, "Categoria");

@@ -43,5 +43,16 @@ namespace SISFER
             frmPrueba_CardView frm2 = new frmPrueba_CardView();
             frm2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ClientPanel formrbn = new ClientPanel();
+
+            formrbn.Show();
+        }
     }
 }
