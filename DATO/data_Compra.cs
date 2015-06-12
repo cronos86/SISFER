@@ -24,7 +24,7 @@ namespace DATO
             return SqlHelper.ExecuteDataTable(cn, "", idcom);
         }
 
-        public static DataSet 
+        
 
     }
 }
