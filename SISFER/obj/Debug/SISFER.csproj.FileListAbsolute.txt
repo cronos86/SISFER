@@ -21,5 +21,8 @@ C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.pdb
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.frmCompras_prueba.resources
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.frmPrueba_CardView.resources
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.frmProducto_prueba.resources
-C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.fromVentas_prueba.resources
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.ClientPanel.resources
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\ENTIDAD.dll
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\NEGOCIO.dll
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\ENTIDAD.pdb
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\NEGOCIO.pdb
