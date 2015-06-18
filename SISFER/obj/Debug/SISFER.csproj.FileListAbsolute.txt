@@ -26,3 +26,7 @@ C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\ENTIDAD.dll
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\NEGOCIO.dll
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\ENTIDAD.pdb
 C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\NEGOCIO.pdb
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\DATO.dll
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\bin\Debug\DATO.pdb
+C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\obj\Debug\SISFER.frmVenta_Prueba.resources

@@ -121,4 +121,16 @@
   <data name="10399424_10153213156027302_311596243937288611_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10399424_10153213156027302_311596243937288611_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="griferia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\griferia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helectricas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helectricas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="herramientas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herramientas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pintura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pintura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

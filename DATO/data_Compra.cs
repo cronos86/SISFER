@@ -10,7 +10,7 @@ using Microsoft.ApplicationBlocks.Data;
 
 namespace DATO
 {
-    class data_Compra
+    public class data_Compra
     {
         static SqlConnection cn = new SqlConnection(clsConexion.cadConexion());
 
@@ -21,7 +21,7 @@ namespace DATO
 
         public static DataTable detalleComprasDA(int idcom)
         {
-            return SqlHelper.ExecuteDataTable(cn, "", idcom);
+            return SqlHelper.ExecuteDataTable(cn, "usp_detallesCompras", idcom);
         }
 
         

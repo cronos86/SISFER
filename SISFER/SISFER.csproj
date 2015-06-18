@@ -108,6 +108,12 @@
     <Compile Include="frmPrueba_CardView.Designer.cs">
       <DependentUpon>frmPrueba_CardView.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVenta_Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVenta_Prueba.Designer.cs">
+      <DependentUpon>frmVenta_Prueba.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RibbonForm1.cs">
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrueba_CardView.resx">
       <DependentUpon>frmPrueba_CardView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVenta_Prueba.resx">
+      <DependentUpon>frmVenta_Prueba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -206,6 +215,18 @@
       <Project>{9838690d-5579-4e87-943e-bb7026c66b1b}</Project>
       <Name>NEGOCIO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\griferia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helectricas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pintura.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

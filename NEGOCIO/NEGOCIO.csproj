@@ -40,6 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="neg_Categoria.cs" />
+    <Compile Include="neg_Compras.cs" />
+    <Compile Include="neg_Producto.cs" />
+    <Compile Include="neg_Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
