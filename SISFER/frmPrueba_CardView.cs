@@ -12,6 +12,8 @@ using DevExpress.XtraGrid.Views.Card;
 using DevExpress.XtraEditors.Repository;
 using NEGOCIO;
 using ENTIDAD;
+using System.Collections;
+using DevExpress.XtraGrid.Views.Grid;
 //using DevExpress.Xpf.Grid;
 
 namespace SISFER
@@ -32,6 +34,7 @@ namespace SISFER
             this.productoTableAdapter.Fill(this.bD_FERRETERIADataSet1.Producto);
 
             ejecutarcodigo();
+            //pictureEdit1.Image = Image.FromFile(@"Images\pintura.jpg");
 
             //this.categoriaTableAdapter.Fill(this.bD_FERRETERIADataSet1.Categoria);
            // gridControl gc = new GridControl();
@@ -96,6 +99,67 @@ namespace SISFER
 
             cv1.PopulateColumns(ds.Tables["Producto"]);
             cv1.Columns["cod_cat"].VisibleIndex = -1;
+        }
+
+
+        string ImageDir = @"C:\Users\USUARIO\Documents\GitHub\HadesFinal\SISFER\Images\";
+
+        Hashtable Images = new Hashtable();
+
+
+
+        string GetFileName(string color)
+        {
+
+            if (color == null || color == string.Empty)
+
+                return string.Empty;
+
+            return color + ".jpg";
+
+        }
+
+        private void cardView1_CustomUnboundColumnData(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDataEventArgs e)
+        {
+            if (e.Column.FieldName == "cat_img" && e.IsGetData)
+            {
+
+                GridView view = sender as GridView;
+
+
+                string colorName = (string)((DataRowView)e.Row)["cat_img"];
+               // string colorName = (string)gridView3.GetRowCellValue(e.ListSourceRowIndex, "cat_img");
+
+                string fileName = GetFileName(colorName).ToLower();
+
+                if (!Images.ContainsKey(fileName))
+                {
+
+                    Image img = null;
+
+                    try
+                    {
+
+                        string filePath = DevExpress.Utils.FilesHelper.FindingFileName(Application.StartupPath, ImageDir + fileName, false);
+
+                        img = Image.FromFile(filePath);
+
+                    }
+
+                    catch
+                    {
+
+                    }
+
+                    Images.Add(fileName, img);
+
+                }
+
+                e.Value = Images[fileName];
+
+            }
+
+            //
         }
     }
 }

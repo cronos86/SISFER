@@ -32,20 +32,21 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.txtndoc = new DevExpress.XtraEditors.TextEdit();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.txtcli = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.txttotal = new DevExpress.XtraEditors.CalcEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.DateEdit();
+            this.txtfec = new DevExpress.XtraEditors.DateEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.cmbProd = new System.Windows.Forms.ComboBox();
             this.cmbcate = new System.Windows.Forms.ComboBox();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.txtdesc = new DevExpress.XtraEditors.TextEdit();
             this.chkdscto = new DevExpress.XtraEditors.CheckEdit();
+            this.btnAgregar = new DevExpress.XtraEditors.SimpleButton();
             this.txtpuni = new DevExpress.XtraEditors.TextEdit();
             this.txtcan = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
@@ -55,30 +56,30 @@
             this.cboProd = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cboCate = new DevExpress.XtraEditors.ComboBoxEdit();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.repositoryItemHyperLinkEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit();
-            this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.btnAgregar = new DevExpress.XtraEditors.SimpleButton();
-            this.txtcod = new DevExpress.XtraEditors.TextEdit();
-            this.txtcodcate = new System.Windows.Forms.TextBox();
-            this.txtdato = new DevExpress.XtraEditors.TextEdit();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.repositoryItemHyperLinkEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit();
+            this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.txtcod = new DevExpress.XtraEditors.TextEdit();
+            this.txtcodcate = new System.Windows.Forms.TextBox();
+            this.txtdato = new DevExpress.XtraEditors.TextEdit();
+            this.btnGrabar = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtndoc.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtcli.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txttotal.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfec.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfec.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
@@ -90,25 +91,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.cboProd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboCate.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemHyperLinkEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcod.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtdato.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.labelControl4);
             this.groupControl1.Controls.Add(this.groupBox1);
-            this.groupControl1.Controls.Add(this.textEdit1);
+            this.groupControl1.Controls.Add(this.txtcli);
             this.groupControl1.Controls.Add(this.labelControl3);
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Controls.Add(this.txttotal);
-            this.groupControl1.Controls.Add(this.textEdit2);
-            this.groupControl1.Location = new System.Drawing.Point(28, 43);
+            this.groupControl1.Controls.Add(this.txtfec);
+            this.groupControl1.Location = new System.Drawing.Point(115, 43);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(468, 159);
             this.groupControl1.TabIndex = 0;
@@ -125,7 +126,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textEdit4);
+            this.groupBox1.Controls.Add(this.txtndoc);
             this.groupBox1.Controls.Add(this.radioGroup1);
             this.groupBox1.Controls.Add(this.labelControl2);
             this.groupBox1.Location = new System.Drawing.Point(18, 79);
@@ -135,15 +136,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // textEdit4
+            // txtndoc
             // 
-            this.textEdit4.Location = new System.Drawing.Point(7, 39);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(119, 20);
-            this.textEdit4.TabIndex = 3;
+            this.txtndoc.Location = new System.Drawing.Point(7, 39);
+            this.txtndoc.Name = "txtndoc";
+            this.txtndoc.Size = new System.Drawing.Size(119, 20);
+            this.txtndoc.TabIndex = 3;
             // 
             // radioGroup1
             // 
+            this.radioGroup1.EditValue = ((short)(1));
             this.radioGroup1.Location = new System.Drawing.Point(144, 15);
             this.radioGroup1.Name = "radioGroup1";
             this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
@@ -160,12 +162,12 @@
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "Nº Combobante:";
             // 
-            // textEdit1
+            // txtcli
             // 
-            this.textEdit1.Location = new System.Drawing.Point(18, 53);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(251, 20);
-            this.textEdit1.TabIndex = 3;
+            this.txtcli.Location = new System.Drawing.Point(18, 53);
+            this.txtcli.Name = "txtcli";
+            this.txtcli.Size = new System.Drawing.Size(251, 20);
+            this.txtcli.TabIndex = 3;
             // 
             // labelControl3
             // 
@@ -194,19 +196,20 @@
             this.txttotal.Size = new System.Drawing.Size(100, 20);
             this.txttotal.TabIndex = 5;
             // 
-            // textEdit2
+            // txtfec
             // 
-            this.textEdit2.EditValue = new System.DateTime(2015, 6, 15, 16, 51, 36, 0);
-            this.textEdit2.Location = new System.Drawing.Point(301, 53);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtfec.EditValue = new System.DateTime(2015, 6, 15, 16, 51, 36, 0);
+            this.txtfec.Enabled = false;
+            this.txtfec.Location = new System.Drawing.Point(301, 53);
+            this.txtfec.Name = "txtfec";
+            this.txtfec.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtfec.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit2.Properties.Mask.EditMask = "";
-            this.textEdit2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
-            this.textEdit2.Size = new System.Drawing.Size(100, 20);
-            this.textEdit2.TabIndex = 4;
+            this.txtfec.Properties.Mask.EditMask = "";
+            this.txtfec.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
+            this.txtfec.Size = new System.Drawing.Size(100, 20);
+            this.txtfec.TabIndex = 4;
             // 
             // groupControl2
             // 
@@ -220,7 +223,7 @@
             this.groupControl2.Controls.Add(this.labelControl7);
             this.groupControl2.Controls.Add(this.labelControl6);
             this.groupControl2.Controls.Add(this.labelControl5);
-            this.groupControl2.Location = new System.Drawing.Point(28, 243);
+            this.groupControl2.Location = new System.Drawing.Point(115, 243);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(468, 211);
             this.groupControl2.TabIndex = 1;
@@ -271,6 +274,17 @@
             this.chkdscto.TabIndex = 11;
             this.chkdscto.CheckedChanged += new System.EventHandler(this.chkdscto_CheckedChanged);
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
+            this.btnAgregar.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
+            this.btnAgregar.Location = new System.Drawing.Point(379, 143);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 59);
+            this.btnAgregar.TabIndex = 4;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
             // txtpuni
             // 
             this.txtpuni.Location = new System.Drawing.Point(350, 48);
@@ -320,7 +334,7 @@
             // cboProd
             // 
             this.cboProd.EditValue = "Seleccione...";
-            this.cboProd.Location = new System.Drawing.Point(291, 220);
+            this.cboProd.Location = new System.Drawing.Point(378, 220);
             this.cboProd.Name = "cboProd";
             this.cboProd.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -330,7 +344,7 @@
             // cboCate
             // 
             this.cboCate.EditValue = "Seleccione...";
-            this.cboCate.Location = new System.Drawing.Point(46, 217);
+            this.cboCate.Location = new System.Drawing.Point(133, 217);
             this.cboCate.Name = "cboCate";
             this.cboCate.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -341,7 +355,7 @@
             // gridControl1
             // 
             this.gridControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.gridControl1.Location = new System.Drawing.Point(552, 223);
+            this.gridControl1.Location = new System.Drawing.Point(639, 248);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
@@ -352,72 +366,21 @@
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
-            // repositoryItemHyperLinkEdit1
+            // gridView1
             // 
-            this.repositoryItemHyperLinkEdit1.AccessibleName = "Eliminar";
-            this.repositoryItemHyperLinkEdit1.AutoHeight = false;
-            this.repositoryItemHyperLinkEdit1.Caption = "Eliminar";
-            this.repositoryItemHyperLinkEdit1.Image = ((System.Drawing.Image)(resources.GetObject("repositoryItemHyperLinkEdit1.Image")));
-            this.repositoryItemHyperLinkEdit1.ImageAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.repositoryItemHyperLinkEdit1.LinkColor = System.Drawing.Color.Navy;
-            this.repositoryItemHyperLinkEdit1.Name = "repositoryItemHyperLinkEdit1";
-            this.repositoryItemHyperLinkEdit1.Click += new System.EventHandler(this.repositoryItemHyperLinkEdit1_Click);
-            // 
-            // repositoryItemButtonEdit1
-            // 
-            this.repositoryItemButtonEdit1.AutoHeight = false;
-            this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
-            // 
-            // gridControl2
-            // 
-            this.gridControl2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.gridControl2.Location = new System.Drawing.Point(552, 12);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(447, 200);
-            this.gridControl2.TabIndex = 3;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2});
-            // 
-            // gridView2
-            // 
-            this.gridView2.GridControl = this.gridControl2;
-            this.gridView2.Name = "gridView2";
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
-            this.btnAgregar.Location = new System.Drawing.Point(379, 143);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 59);
-            this.btnAgregar.TabIndex = 4;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // txtcod
-            // 
-            this.txtcod.Location = new System.Drawing.Point(28, 12);
-            this.txtcod.Name = "txtcod";
-            this.txtcod.Size = new System.Drawing.Size(100, 20);
-            this.txtcod.TabIndex = 5;
-            this.txtcod.Visible = false;
-            // 
-            // txtcodcate
-            // 
-            this.txtcodcate.Location = new System.Drawing.Point(329, 12);
-            this.txtcodcate.Name = "txtcodcate";
-            this.txtcodcate.Size = new System.Drawing.Size(100, 20);
-            this.txtcodcate.TabIndex = 6;
-            // 
-            // txtdato
-            // 
-            this.txtdato.Location = new System.Drawing.Point(899, 404);
-            this.txtdato.Name = "txtdato";
-            this.txtdato.Size = new System.Drawing.Size(100, 20);
-            this.txtdato.TabIndex = 7;
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4,
+            this.gridColumn5,
+            this.gridColumn6});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.OptionsEditForm.ShowUpdateCancelPanel = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
             // gridColumn1
             // 
@@ -474,27 +437,79 @@
             this.gridColumn6.VisibleIndex = 5;
             this.gridColumn6.Width = 55;
             // 
-            // gridView1
+            // repositoryItemHyperLinkEdit1
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5,
-            this.gridColumn6});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
-            this.gridView1.OptionsEditForm.ShowUpdateCancelPanel = DevExpress.Utils.DefaultBoolean.True;
-            this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
+            this.repositoryItemHyperLinkEdit1.AccessibleName = "Eliminar";
+            this.repositoryItemHyperLinkEdit1.AutoHeight = false;
+            this.repositoryItemHyperLinkEdit1.Caption = "Eliminar";
+            this.repositoryItemHyperLinkEdit1.Image = ((System.Drawing.Image)(resources.GetObject("repositoryItemHyperLinkEdit1.Image")));
+            this.repositoryItemHyperLinkEdit1.ImageAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.repositoryItemHyperLinkEdit1.LinkColor = System.Drawing.Color.Navy;
+            this.repositoryItemHyperLinkEdit1.Name = "repositoryItemHyperLinkEdit1";
+            this.repositoryItemHyperLinkEdit1.Click += new System.EventHandler(this.repositoryItemHyperLinkEdit1_Click);
+            // 
+            // repositoryItemButtonEdit1
+            // 
+            this.repositoryItemButtonEdit1.AutoHeight = false;
+            this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
+            // 
+            // gridControl2
+            // 
+            this.gridControl2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gridControl2.Location = new System.Drawing.Point(639, 37);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(447, 200);
+            this.gridControl2.TabIndex = 3;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // gridView2
+            // 
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            // 
+            // txtcod
+            // 
+            this.txtcod.Location = new System.Drawing.Point(115, 12);
+            this.txtcod.Name = "txtcod";
+            this.txtcod.Size = new System.Drawing.Size(100, 20);
+            this.txtcod.TabIndex = 5;
+            this.txtcod.Visible = false;
+            // 
+            // txtcodcate
+            // 
+            this.txtcodcate.Location = new System.Drawing.Point(416, 12);
+            this.txtcodcate.Name = "txtcodcate";
+            this.txtcodcate.Size = new System.Drawing.Size(100, 20);
+            this.txtcodcate.TabIndex = 6;
+            // 
+            // txtdato
+            // 
+            this.txtdato.Location = new System.Drawing.Point(986, 425);
+            this.txtdato.Name = "txtdato";
+            this.txtdato.Size = new System.Drawing.Size(100, 20);
+            this.txtdato.TabIndex = 7;
+            // 
+            // btnGrabar
+            // 
+            this.btnGrabar.Image = ((System.Drawing.Image)(resources.GetObject("btnGrabar.Image")));
+            this.btnGrabar.ImageLocation = DevExpress.XtraEditors.ImageLocation.TopCenter;
+            this.btnGrabar.Location = new System.Drawing.Point(1104, 36);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(75, 59);
+            this.btnGrabar.TabIndex = 8;
+            this.btnGrabar.Text = "Agregar";
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // frmVenta_Prueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 466);
+            this.ClientSize = new System.Drawing.Size(1191, 485);
+            this.Controls.Add(this.btnGrabar);
             this.Controls.Add(this.txtdato);
             this.Controls.Add(this.txtcodcate);
             this.Controls.Add(this.txtcod);
@@ -505,6 +520,7 @@
             this.Controls.Add(this.cboCate);
             this.Controls.Add(this.cboProd);
             this.Name = "frmVenta_Prueba";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmVenta_Prueba";
             this.Load += new System.EventHandler(this.frmVenta_Prueba_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
@@ -512,12 +528,12 @@
             this.groupControl1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtndoc.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtcli.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txttotal.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfec.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfec.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
@@ -530,13 +546,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.cboProd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboCate.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemHyperLinkEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtcod.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtdato.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -548,13 +564,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private DevExpress.XtraEditors.RadioGroup radioGroup1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtcli;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit txtndoc;
         private DevExpress.XtraEditors.CalcEdit txttotal;
-        private DevExpress.XtraEditors.DateEdit textEdit2;
+        private DevExpress.XtraEditors.DateEdit txtfec;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.GroupControl groupControl3;
         private DevExpress.XtraEditors.TextEdit txtdesc;
@@ -585,5 +601,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private DevExpress.XtraEditors.SimpleButton btnGrabar;
     }
 }

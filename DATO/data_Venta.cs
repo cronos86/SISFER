@@ -16,17 +16,27 @@ namespace DATO
 
         public static DataTable listaVentasDA()
         {
-            return SqlHelper.ExecuteDataTable(cn, "");
+            return SqlHelper.ExecuteDataTable(cn, "usp_listarVentas");
         }
 
         public static DataTable detalleVentaDA(int idven)
         {
-            return SqlHelper.ExecuteDataTable(cn, "", idven);
+            return SqlHelper.ExecuteDataTable(cn, "usp_productosxVenta", idven);
         }
 
         public static DataTable codigoVenta()
         {
             return SqlHelper.ExecuteDataTable(cn,CommandType.Text,"select max(cod_ven) from Ventas");
+        }
+
+        public static int registrarCabeVentaDA(venta objv)
+        {
+            return SqlHelper.ExecuteNonQuery(cn, "usp_agregarCabeceraVenta", objv.ven_cli, objv.cod_tdoc, objv.ven_ndoc, objv.ven_total);
+        }
+
+        public static int registratDetaVentaDA(venta objv)
+        {
+            return SqlHelper.ExecuteNonQuery(cn, "usp_agregarDetalleVenta", objv.cod_ven, objv.cod_pro, objv.dven_can, objv.dven_puni, objv.dven_precio, objv.dven_desc);
         }
     }
 }
