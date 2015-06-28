@@ -24,6 +24,16 @@ namespace DATO
             return SqlHelper.ExecuteDataTable(cn, "usp_detallesCompras", idcom);
         }
 
+        public static int registrarCabeCompraDA(compra objc)
+        {
+            return SqlHelper.ExecuteNonQuery(cn,"",objc.com_prov,objc.cod_tdoc,objc.com_doc,objc.com_des,objc.com_total);
+        }
+
+         public static int registrarDetaCompraDA(compra objc)
+        {
+            return SqlHelper.ExecuteNonQuery(cn,"",objc.cod_com,objc.cod_pro,objc.dcom_can,objc.dcom_puni,objc.dcom_precio,objc.dcom_desc);
+        }
+
         
 
     }
